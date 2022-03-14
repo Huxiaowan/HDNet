@@ -1,5 +1,9 @@
 # HDNet: High-resolution Dual-domain Learning  for Spectral Compressive Imaging
-The source code of the CVPR2022 paper: HDNet: High-resolution Dual-domain Learning  for Spectral Compressive Imaging
+The source code of the CVPR2022 paper: **HDNet: High-resolution Dual-domain Learning  for Spectral Compressive Imaging**
+
+## Architecture
+
+
 
 ## Requirement
 Python=3.5+
