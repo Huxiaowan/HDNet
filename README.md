@@ -2,8 +2,15 @@
 The source code of the CVPR2022 paper: **HDNet: High-resolution Dual-domain Learning  for Spectral Compressive Imaging**
 
 ## Architecture
+![architecture](https://github.com/Huxiaowan/HDNet/blob/main/figures/architecture.png)
+The architecture of HDNet. Spatial-spectral domain learning (SDL) includes HR spectral attention, HR spatial attention, and efficient feature fusion (EFF). In frequency domain learning (FDL), the 2D Discrete Fourier Transform (DFT) is used to obtain the HSI frequency spectrum. The adaptive weight θ(u,v) of each frequency coordinate (u,v) is dynamically determined by the frequency distance.
 
+## Result
+![table](https://github.com/Huxiaowan/HDNet/blob/main/figures/table_result.png)
+The PSNR in dB (left entry in each cell) and SSIM (right entry in each cell) results of the test methods on 10 scenes.
 
+![visual](https://github.com/Huxiaowan/HDNet/blob/main/figures/visiual_result.png)
+Simulated HSI reconstruction comparisons of Scene 7 with 4 (out of 28) spectral channels. We show the spectral curves (topmedium) corresponding to the selected green boxes of the RGB image. Our HDNet reconstructs more visually pleasant detailed contents.
 
 ## Requirement
 Python=3.5+
