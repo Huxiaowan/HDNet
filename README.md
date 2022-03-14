@@ -1,4 +1,5 @@
-# The source code of the ID2182 paper: HDNet: High-resolution Dual-domain Learning  for Spectral Compressive Imaging
+# HDNet: High-resolution Dual-domain Learning  for Spectral Compressive Imaging
+The source code of the ID2182 paper: HDNet: High-resolution Dual-domain Learning  for Spectral Compressive Imaging
 
 ## Requirement
 Python=3.5+
