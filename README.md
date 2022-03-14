@@ -9,8 +9,7 @@ OS: Ubuntu 16.04
 CUDA: 9.0/10.0
 pillow 
 matplotlib 
-
----
+···
 
 ## Prepare training data 
 > Simulation Data
@@ -22,7 +21,7 @@ matplotlib
     mask_path = "/data/simu_data/"
     test_path = "/data/simu_data/Truth/" 
     ```
----
+···
 
 ## Train
 ### Training simulation model
