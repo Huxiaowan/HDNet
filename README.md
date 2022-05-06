@@ -12,6 +12,8 @@ The PSNR in dB (left entry in each cell) and SSIM (right entry in each cell) res
 ![visual](https://github.com/Huxiaowan/HDNet/blob/main/figures/visiual_result.png)
 Simulated HSI reconstruction comparisons of Scene 7 with 4 (out of 28) spectral channels. We show the spectral curves (topmedium) corresponding to the selected green boxes of the RGB image. Our HDNet reconstructs more visually pleasant detailed contents.
 
+The simulated HSI reconstruction results are available [here](https://cloud.tsinghua.edu.cn/f/e78b17053bfc419f9839/?dl=1).
+
 ## Requirement
 Python=3.5+
 PyTorch=1.0+
